@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Paneer Roll",
+    "orders": 200
+  },
+  {
+    "name": "Egg Roll",
+    "orders": 600
+  },
+  {
+    "name": "Pasta",
+    "orders": 300
+  },
+  {
+    "name": "Chicken Roll",
+    "orders": 900
+  },
+  {
+    "name": "Egg Chowmin",
+    "orders": 1100
+  },
+  {
+    "name": "Veg Chowmin",
+    "orders": 400
+  },
+  {
+    "name": "Cold Drink",
+    "orders": 1250
+  }
+]

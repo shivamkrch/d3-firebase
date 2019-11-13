@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>D3 Visulalisations with Firebase</title>
+  </head>
+  <body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+    <h1>D3 Visulalisations with Firebase</h1>
+
+    <div class="canvas">
+      <h2>D3 with Data</h2>
+      <svg width="100%">
+        <rect></rect>
+      </svg>
+      <h2>External Data</h2>
+      <svg id="planets" width="100%" height="200"></svg>
+      <h2>Creating Bar Charts with Scaling (using JS only)</h2>
+    </div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-firestore.js"></script>
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyAPG_Nh2Vf54haO2bOyF3OJqk1URoE3qns",
+        authDomain: "d3-firebase-skc.firebaseapp.com",
+        databaseURL: "https://d3-firebase-skc.firebaseio.com",
+        projectId: "d3-firebase-skc",
+        storageBucket: "d3-firebase-skc.appspot.com",
+        messagingSenderId: "50891937036",
+        appId: "1:50891937036:web:c70cc358723e73261e2529",
+        measurementId: "G-GR380B7F9X"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+
+      const db = firebase.firestore();
+    </script>
+    <script src="https://d3js.org/d3.v5.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
